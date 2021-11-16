@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>834517024250-pmutdu85tb1sifsck1j0c4rjesbqgua4.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.834517024250-pmutdu85tb1sifsck1j0c4rjesbqgua4</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAfBN5L1bdGwQFkmAJ045agXmhHMyc1MXM</string>
+	<key>GCM_SENDER_ID</key>
+	<string>834517024250</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.desmoslab.firetestios</string>
+	<key>PROJECT_ID</key>
+	<string>joynchat</string>
+	<key>STORAGE_BUCKET</key>
+	<string>joynchat.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:834517024250:ios:2b7ea52df04d852a5cf843</string>
+	<key>DATABASE_URL</key>
+	<string>https://joynchat.firebaseio.com</string>
+</dict>
+</plist>

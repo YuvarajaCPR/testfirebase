@@ -1,0 +1,745 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A6AD608273EA7CF0058D566 /* SingleFlutterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6AD607273EA7CF0058D566 /* SingleFlutterViewController.swift */; };
+		3AFB0700273E5B2100A841BB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AFB06FF273E5B2100A841BB /* AppDelegate.m */; };
+		3AFB0703273E5B2100A841BB /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AFB0702273E5B2100A841BB /* SceneDelegate.m */; };
+		3AFB0706273E5B2100A841BB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AFB0705273E5B2100A841BB /* ViewController.m */; };
+		3AFB0709273E5B2100A841BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AFB0707273E5B2100A841BB /* Main.storyboard */; };
+		3AFB070B273E5B2300A841BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AFB070A273E5B2300A841BB /* Assets.xcassets */; };
+		3AFB070E273E5B2300A841BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AFB070C273E5B2300A841BB /* LaunchScreen.storyboard */; };
+		3AFB0711273E5B2300A841BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AFB0710273E5B2300A841BB /* main.m */; };
+		3AFB071B273E5B2300A841BB /* firetestiosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AFB071A273E5B2300A841BB /* firetestiosTests.m */; };
+		3AFB0725273E5B2300A841BB /* firetestiosUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AFB0724273E5B2300A841BB /* firetestiosUITests.m */; };
+		3AFB0727273E5B2300A841BB /* firetestiosUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AFB0726273E5B2300A841BB /* firetestiosUITestsLaunchTests.m */; };
+		3AFB0734273E620800A841BB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3AFB0733273E620800A841BB /* GoogleService-Info.plist */; };
+		E79BFE94FDD5D274F2890955 /* Pods_firetestios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A24278076183C3D52B867A08 /* Pods_firetestios.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3AFB0717273E5B2300A841BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3AFB06F3273E5B2100A841BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3AFB06FA273E5B2100A841BB;
+			remoteInfo = firetestios;
+		};
+		3AFB0721273E5B2300A841BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3AFB06F3273E5B2100A841BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3AFB06FA273E5B2100A841BB;
+			remoteInfo = firetestios;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0FF97970BC208F4C6E24B66B /* Pods-firetestios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firetestios.debug.xcconfig"; path = "Target Support Files/Pods-firetestios/Pods-firetestios.debug.xcconfig"; sourceTree = "<group>"; };
+		3A6AD606273EA7CE0058D566 /* firetestios-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "firetestios-Bridging-Header.h"; sourceTree = "<group>"; };
+		3A6AD607273EA7CF0058D566 /* SingleFlutterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleFlutterViewController.swift; sourceTree = "<group>"; };
+		3AFB06FB273E5B2100A841BB /* firetestios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = firetestios.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AFB06FE273E5B2100A841BB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3AFB06FF273E5B2100A841BB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3AFB0701273E5B2100A841BB /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		3AFB0702273E5B2100A841BB /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		3AFB0704273E5B2100A841BB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3AFB0705273E5B2100A841BB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3AFB0708273E5B2100A841BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3AFB070A273E5B2300A841BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3AFB070D273E5B2300A841BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3AFB070F273E5B2300A841BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AFB0710273E5B2300A841BB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3AFB0716273E5B2300A841BB /* firetestiosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = firetestiosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AFB071A273E5B2300A841BB /* firetestiosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = firetestiosTests.m; sourceTree = "<group>"; };
+		3AFB0720273E5B2300A841BB /* firetestiosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = firetestiosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AFB0724273E5B2300A841BB /* firetestiosUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = firetestiosUITests.m; sourceTree = "<group>"; };
+		3AFB0726273E5B2300A841BB /* firetestiosUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = firetestiosUITestsLaunchTests.m; sourceTree = "<group>"; };
+		3AFB0733273E620800A841BB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6C73D9CF2DEDA2F79EE13AB0 /* Pods-firetestios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firetestios.release.xcconfig"; path = "Target Support Files/Pods-firetestios/Pods-firetestios.release.xcconfig"; sourceTree = "<group>"; };
+		A24278076183C3D52B867A08 /* Pods_firetestios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_firetestios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3AFB06F8273E5B2100A841BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E79BFE94FDD5D274F2890955 /* Pods_firetestios.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AFB0713273E5B2300A841BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AFB071D273E5B2300A841BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3AFB06F2273E5B2100A841BB = {
+			isa = PBXGroup;
+			children = (
+				3AFB06FD273E5B2100A841BB /* firetestios */,
+				3AFB0719273E5B2300A841BB /* firetestiosTests */,
+				3AFB0723273E5B2300A841BB /* firetestiosUITests */,
+				3AFB06FC273E5B2100A841BB /* Products */,
+				7D0E242023F926F217D63918 /* Pods */,
+				CA269758D69DFBC2E1817120 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3AFB06FC273E5B2100A841BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3AFB06FB273E5B2100A841BB /* firetestios.app */,
+				3AFB0716273E5B2300A841BB /* firetestiosTests.xctest */,
+				3AFB0720273E5B2300A841BB /* firetestiosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3AFB06FD273E5B2100A841BB /* firetestios */ = {
+			isa = PBXGroup;
+			children = (
+				3AFB0733273E620800A841BB /* GoogleService-Info.plist */,
+				3AFB06FE273E5B2100A841BB /* AppDelegate.h */,
+				3AFB06FF273E5B2100A841BB /* AppDelegate.m */,
+				3AFB0701273E5B2100A841BB /* SceneDelegate.h */,
+				3AFB0702273E5B2100A841BB /* SceneDelegate.m */,
+				3AFB0704273E5B2100A841BB /* ViewController.h */,
+				3AFB0705273E5B2100A841BB /* ViewController.m */,
+				3AFB0707273E5B2100A841BB /* Main.storyboard */,
+				3AFB070A273E5B2300A841BB /* Assets.xcassets */,
+				3AFB070C273E5B2300A841BB /* LaunchScreen.storyboard */,
+				3AFB070F273E5B2300A841BB /* Info.plist */,
+				3AFB0710273E5B2300A841BB /* main.m */,
+				3A6AD607273EA7CF0058D566 /* SingleFlutterViewController.swift */,
+				3A6AD606273EA7CE0058D566 /* firetestios-Bridging-Header.h */,
+			);
+			path = firetestios;
+			sourceTree = "<group>";
+		};
+		3AFB0719273E5B2300A841BB /* firetestiosTests */ = {
+			isa = PBXGroup;
+			children = (
+				3AFB071A273E5B2300A841BB /* firetestiosTests.m */,
+			);
+			path = firetestiosTests;
+			sourceTree = "<group>";
+		};
+		3AFB0723273E5B2300A841BB /* firetestiosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3AFB0724273E5B2300A841BB /* firetestiosUITests.m */,
+				3AFB0726273E5B2300A841BB /* firetestiosUITestsLaunchTests.m */,
+			);
+			path = firetestiosUITests;
+			sourceTree = "<group>";
+		};
+		7D0E242023F926F217D63918 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0FF97970BC208F4C6E24B66B /* Pods-firetestios.debug.xcconfig */,
+				6C73D9CF2DEDA2F79EE13AB0 /* Pods-firetestios.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CA269758D69DFBC2E1817120 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A24278076183C3D52B867A08 /* Pods_firetestios.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3AFB06FA273E5B2100A841BB /* firetestios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AFB072A273E5B2300A841BB /* Build configuration list for PBXNativeTarget "firetestios" */;
+			buildPhases = (
+				4F54C20DD2E9536DE1339A5D /* [CP] Check Pods Manifest.lock */,
+				60B7D058F2D3CBC94771283F /* [CP-User] Run Flutter Build fluttermodule Script */,
+				3AFB06F7273E5B2100A841BB /* Sources */,
+				3AFB06F8273E5B2100A841BB /* Frameworks */,
+				3AFB06F9273E5B2100A841BB /* Resources */,
+				73566B7A01D3172E88B6717D /* [CP] Copy Pods Resources */,
+				1C8BBE21CE500F5D17EC5CCE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = firetestios;
+			productName = firetestios;
+			productReference = 3AFB06FB273E5B2100A841BB /* firetestios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3AFB0715273E5B2300A841BB /* firetestiosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AFB072D273E5B2300A841BB /* Build configuration list for PBXNativeTarget "firetestiosTests" */;
+			buildPhases = (
+				3AFB0712273E5B2300A841BB /* Sources */,
+				3AFB0713273E5B2300A841BB /* Frameworks */,
+				3AFB0714273E5B2300A841BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3AFB0718273E5B2300A841BB /* PBXTargetDependency */,
+			);
+			name = firetestiosTests;
+			productName = firetestiosTests;
+			productReference = 3AFB0716273E5B2300A841BB /* firetestiosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3AFB071F273E5B2300A841BB /* firetestiosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AFB0730273E5B2300A841BB /* Build configuration list for PBXNativeTarget "firetestiosUITests" */;
+			buildPhases = (
+				3AFB071C273E5B2300A841BB /* Sources */,
+				3AFB071D273E5B2300A841BB /* Frameworks */,
+				3AFB071E273E5B2300A841BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3AFB0722273E5B2300A841BB /* PBXTargetDependency */,
+			);
+			name = firetestiosUITests;
+			productName = firetestiosUITests;
+			productReference = 3AFB0720273E5B2300A841BB /* firetestiosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3AFB06F3273E5B2100A841BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					3AFB06FA273E5B2100A841BB = {
+						CreatedOnToolsVersion = 13.1;
+						LastSwiftMigration = 1310;
+					};
+					3AFB0715273E5B2300A841BB = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 3AFB06FA273E5B2100A841BB;
+					};
+					3AFB071F273E5B2300A841BB = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 3AFB06FA273E5B2100A841BB;
+					};
+				};
+			};
+			buildConfigurationList = 3AFB06F6273E5B2100A841BB /* Build configuration list for PBXProject "firetestios" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3AFB06F2273E5B2100A841BB;
+			productRefGroup = 3AFB06FC273E5B2100A841BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3AFB06FA273E5B2100A841BB /* firetestios */,
+				3AFB0715273E5B2300A841BB /* firetestiosTests */,
+				3AFB071F273E5B2300A841BB /* firetestiosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3AFB06F9273E5B2100A841BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AFB070E273E5B2300A841BB /* LaunchScreen.storyboard in Resources */,
+				3AFB070B273E5B2300A841BB /* Assets.xcassets in Resources */,
+				3AFB0734273E620800A841BB /* GoogleService-Info.plist in Resources */,
+				3AFB0709273E5B2100A841BB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AFB0714273E5B2300A841BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AFB071E273E5B2300A841BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1C8BBE21CE500F5D17EC5CCE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-firetestios/Pods-firetestios-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-firetestios/Pods-firetestios-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-firetestios/Pods-firetestios-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F54C20DD2E9536DE1339A5D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-firetestios-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		60B7D058F2D3CBC94771283F /* [CP-User] Run Flutter Build fluttermodule Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "[CP-User] Run Flutter Build fluttermodule Script";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nset -u\nsource \"${SRCROOT}/../../flutter_module/.ios/Flutter/flutter_export_environment.sh\"\nexport VERBOSE_SCRIPT_LOGGING=1 && \"$FLUTTER_ROOT\"/packages/flutter_tools/bin/xcode_backend.sh build";
+		};
+		73566B7A01D3172E88B6717D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-firetestios/Pods-firetestios-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-firetestios/Pods-firetestios-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-firetestios/Pods-firetestios-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3AFB06F7273E5B2100A841BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AFB0706273E5B2100A841BB /* ViewController.m in Sources */,
+				3AFB0700273E5B2100A841BB /* AppDelegate.m in Sources */,
+				3AFB0711273E5B2300A841BB /* main.m in Sources */,
+				3AFB0703273E5B2100A841BB /* SceneDelegate.m in Sources */,
+				3A6AD608273EA7CF0058D566 /* SingleFlutterViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AFB0712273E5B2300A841BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AFB071B273E5B2300A841BB /* firetestiosTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AFB071C273E5B2300A841BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AFB0727273E5B2300A841BB /* firetestiosUITestsLaunchTests.m in Sources */,
+				3AFB0725273E5B2300A841BB /* firetestiosUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3AFB0718273E5B2300A841BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3AFB06FA273E5B2100A841BB /* firetestios */;
+			targetProxy = 3AFB0717273E5B2300A841BB /* PBXContainerItemProxy */;
+		};
+		3AFB0722273E5B2300A841BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3AFB06FA273E5B2100A841BB /* firetestios */;
+			targetProxy = 3AFB0721273E5B2300A841BB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3AFB0707273E5B2100A841BB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3AFB0708273E5B2100A841BB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3AFB070C273E5B2300A841BB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3AFB070D273E5B2300A841BB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3AFB0728273E5B2300A841BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3AFB0729273E5B2300A841BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3AFB072B273E5B2300A841BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FF97970BC208F4C6E24B66B /* Pods-firetestios.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 86X7K65D29;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = firetestios/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.desmoslab.firetestios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "firetestios/firetestios-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3AFB072C273E5B2300A841BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C73D9CF2DEDA2F79EE13AB0 /* Pods-firetestios.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 86X7K65D29;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = firetestios/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.desmoslab.firetestios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "firetestios/firetestios-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3AFB072E273E5B2300A841BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 86X7K65D29;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.desmoslab.firetestiosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/firetestios.app/firetestios";
+			};
+			name = Debug;
+		};
+		3AFB072F273E5B2300A841BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 86X7K65D29;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.desmoslab.firetestiosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/firetestios.app/firetestios";
+			};
+			name = Release;
+		};
+		3AFB0731273E5B2300A841BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 86X7K65D29;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.desmoslab.firetestiosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = firetestios;
+			};
+			name = Debug;
+		};
+		3AFB0732273E5B2300A841BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 86X7K65D29;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.desmoslab.firetestiosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = firetestios;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3AFB06F6273E5B2100A841BB /* Build configuration list for PBXProject "firetestios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AFB0728273E5B2300A841BB /* Debug */,
+				3AFB0729273E5B2300A841BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AFB072A273E5B2300A841BB /* Build configuration list for PBXNativeTarget "firetestios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AFB072B273E5B2300A841BB /* Debug */,
+				3AFB072C273E5B2300A841BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AFB072D273E5B2300A841BB /* Build configuration list for PBXNativeTarget "firetestiosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AFB072E273E5B2300A841BB /* Debug */,
+				3AFB072F273E5B2300A841BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AFB0730273E5B2300A841BB /* Build configuration list for PBXNativeTarget "firetestiosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AFB0731273E5B2300A841BB /* Debug */,
+				3AFB0732273E5B2300A841BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3AFB06F3273E5B2100A841BB /* Project object */;
+}
